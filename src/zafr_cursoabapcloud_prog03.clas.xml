@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>Z_AFR_CLA_PROGABAPCLOUD001</CLSNAME>
+    <CLSNAME>ZAFR_CURSOABAPCLOUD_PROG03</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Primer programa ABAP CLOUDE</DESCRIPT>
+    <DESCRIPT>Manejo de Excepciones</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

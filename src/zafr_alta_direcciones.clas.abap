@@ -10,7 +10,10 @@ CLASS zafr_alta_direcciones DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_direcciones IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_DIRECCIONES IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Direccion TYPE STANDARD TABLE OF zt11tt_direccion.

@@ -10,7 +10,10 @@ CLASS zafr_alta_departamentos DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_departamentos IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_DEPARTAMENTOS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Depto TYPE STANDARD TABLE OF zt06tt_deptos.

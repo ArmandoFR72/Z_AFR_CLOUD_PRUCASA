@@ -10,38 +10,41 @@ CLASS zafr_alta_empleados DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_empleados IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_EMPLEADOS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Datgen TYPE STANDARD TABLE OF zt01tt_datgen.
            IT_Datgen = VALUE #(
-           ( numcontrol   = 305423
-            secretaria   = '5006'
-            direccion    = '405030000'
-            depto        = '50611103'
+           ( numcontrol   = 99711
+            secretaria   = '5001'
+            direccion    = '401010001'
+            depto        = '50111001'
             tipnom       = 6
-            areafunc     = 'P07035520200125B'
-            puesto       = '30000005'
-            rfc          = ''
-            curp         = ''
-            paterno      = 'GARCIA'
-            materno      = 'DIAZ CONTI'
-            nombres      = 'MONICA LUCILA'
-            fecing       = '20090917'
-            dding        = 17
-            mming        = 09
-            aaing        = 2009
-            fecnac       = '19650510'
+            areafunc     = 'E10045524240125B'
+            puesto       = '30000002'
+            rfc          = 'LOGA770110XYZ'
+            curp         = 'LOGA770110MPLRRL02'
+            paterno      = 'LORANCA'
+            materno      = 'GARCIA'
+            nombres      = 'ALEJANDRA ARACELI'
+            fecing       = '19990430'
+            dding        = 30
+            mming        = 04
+            aaing        = 1999
+            fecnac       = '19770110'
             ddnac        = 10
-            mmnac        = 05
-            aanac        = 1965
+            mmnac        = 01
+            aanac        = 1977
             sexo         = 'MUJER'
             nacionalidad = 'MEXICANA'
-            edociv       = 'CASADA'
-            telefono     = '52-66-20-75-33'
-            celular      = '22-27-49-74-31'
-            correo       = 'garcia.contiM@gmail.com'
-            foto         = 'C:\Users\Sub Sistemas 01\Downloads\095_SAP_CLOUDE_Eclipse_Casa\FOTOS\305423_GCM.jpg'
+            edociv       = 'SOLTERA'
+            telefono     = '52-76-55-72-33'
+            celular      = '22-24-49-88-31'
+            correo       = 'loranca.garcia@gmail.com'
+            foto         = 'C:\Users\Sub Sistemas 01\Downloads\095_SAP_CLOUDE_Eclipse_Casa\FOTOS\99711_ALG.jpg'
             sts          = 'ACTIVO' )
          ).
          INSERT zt01tt_datgen FROM TABLE @IT_Datgen.

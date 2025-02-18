@@ -10,7 +10,10 @@ CLASS zafr_alta_puestosfuncs DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_puestosfuncs IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_PUESTOSFUNCS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Puestosfu TYPE STANDARD TABLE OF zt13tt_puestosfu.

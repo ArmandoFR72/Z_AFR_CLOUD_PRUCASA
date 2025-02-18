@@ -10,7 +10,10 @@ CLASS zafr_alta_clinicas DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_clinicas IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_CLINICAS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Clinica TYPE STANDARD TABLE OF zt14tt_clinica.

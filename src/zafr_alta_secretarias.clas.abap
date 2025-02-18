@@ -10,7 +10,10 @@ CLASS zafr_alta_secretarias DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_secretarias IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_SECRETARIAS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Secretarias TYPE STANDARD TABLE OF zt05tt_secretars.

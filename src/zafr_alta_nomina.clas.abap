@@ -10,7 +10,10 @@ CLASS zafr_alta_nomina DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_nomina IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_NOMINA IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Nomina TYPE STANDARD TABLE OF zt07tt_nomina.

@@ -10,7 +10,10 @@ CLASS zafr_alta_bancos DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_bancos IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_BANCOS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Bancos TYPE STANDARD TABLE OF zt03tt_banco.

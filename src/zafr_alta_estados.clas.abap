@@ -10,7 +10,10 @@ CLASS zafr_alta_estados DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_estados IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_ESTADOS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Estados TYPE STANDARD TABLE OF zt10tt_estados.

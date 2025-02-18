@@ -10,7 +10,10 @@ CLASS zafr_alta_areasfuncs DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_areasfuncs IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_AREASFUNCS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_AreasFuncs TYPE STANDARD TABLE OF zt12tt_areafun.

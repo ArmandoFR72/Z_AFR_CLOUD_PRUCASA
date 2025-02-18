@@ -10,7 +10,10 @@ CLASS zafr_alta_municipios DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zafr_alta_municipios IMPLEMENTATION.
+
+
+CLASS ZAFR_ALTA_MUNICIPIOS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
          DATA: IT_Municipios TYPE STANDARD TABLE OF zt09tt_municipio.
